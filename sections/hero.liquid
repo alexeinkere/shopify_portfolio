@@ -1,0 +1,52 @@
+<section {{ section.id }}>
+
+</section>
+
+{% schema %}
+{
+  "name": "Hero",
+  "blocks": [
+    {
+      "type": "link_list",
+      "name": "link_list",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "default": "Quick links",
+          "label": "label",
+          "info": "info"
+        },
+        {
+          "type": "link_list",
+          "id": "menu",
+          "default": "footer",
+          "label": "label",
+          "info": "info"
+        }
+      ]
+    },
+  ],
+  "settings": [
+    {
+      "type": "header",
+      "content": "content",
+      "info": "info"
+    },
+    {
+      "type": "header",
+      "content": "spacing"
+    }
+  ],
+  "default": {
+    "blocks": [
+      {
+        "type": "link_list"
+      },
+      {
+        "type": "text"
+      }
+    ]
+  }
+}
+{% endschema %}

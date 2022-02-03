@@ -8,23 +8,6 @@
     "colors_background_1": "rgba(0,0,0,0)",
     "colors_background_2": "rgba(0,0,0,0)",
     "sections": {
-      "announcement-bar": {
-        "type": "announcement-bar",
-        "settings": {
-        }
-      },
-      "header": {
-        "type": "header",
-        "settings": {
-          "color_scheme": "background-1",
-          "logo_width": 50,
-          "logo_position": "middle-left",
-          "menu": "",
-          "show_line_separator": false,
-          "enable_sticky_header": false,
-          "margin_bottom": 0
-        }
-      },
       "footer": {
         "type": "footer",
         "settings": {

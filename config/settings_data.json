@@ -1,59 +1,43 @@
 {
   "current": {
+    "colors_solid_button_labels": "rgba(0,0,0,0)",
+    "colors_accent_1": "rgba(0,0,0,0)",
+    "colors_accent_2": "rgba(0,0,0,0)",
+    "colors_text": "rgba(0,0,0,0)",
+    "colors_outline_button_labels": "rgba(0,0,0,0)",
+    "colors_background_1": "rgba(0,0,0,0)",
+    "colors_background_2": "rgba(0,0,0,0)",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
-        "blocks": {
-          "announcement-bar-0": {
-            "type": "announcement",
-            "settings": {
-              "color_scheme": "background-1"
-            }
-          }
-        },
-        "block_order": [
-          "announcement-bar-0"
-        ],
         "settings": {
         }
       },
       "header": {
         "type": "header",
         "settings": {
-          "logo_width": 90
+          "color_scheme": "background-1",
+          "logo_width": 50,
+          "logo_position": "middle-left",
+          "menu": "",
+          "show_line_separator": false,
+          "enable_sticky_header": false,
+          "margin_bottom": 0
         }
       },
       "footer": {
         "type": "footer",
-        "blocks": {
-          "footer-0": {
-            "type": "link_list",
-            "settings": {
-            }
-          },
-          "footer-1": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Info"
-            }
-          },
-          "footer-2": {
-            "type": "text",
-            "settings": {
-              "heading": "Our mission"
-            }
-          }
-        },
-        "block_order": [
-          "footer-0",
-          "footer-1",
-          "footer-2"
-        ],
         "settings": {
-          "show_social": true,
+          "color_scheme": "background-1",
+          "newsletter_enable": false,
+          "newsletter_heading": "",
+          "show_social": false,
           "enable_country_selector": false,
           "enable_language_selector": false,
-          "margin_top": 48
+          "payment_enable": false,
+          "margin_top": 0,
+          "padding_top": 0,
+          "padding_bottom": 0
         }
       },
       "main-password-header": {
@@ -66,7 +50,10 @@
         "settings": {
         }
       }
-    }
+    },
+    "content_for_index": [
+
+    ]
   },
   "presets": {
     "Default": {

@@ -1,5 +1,5 @@
-<section {{ section.id }} style="h-screen w-screen bg-green">
-
+<section {{ section.id }} class="h-screen w-screen bg-forest">
+  {{ section.settings.title }}
 </section>
 
 {% schema %}
@@ -15,6 +15,7 @@
     {
       "type": "text",
       "id": "title",
+      "label": "Title",
       "default": "Title"
     }
   ],

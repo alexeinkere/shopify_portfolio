@@ -29,12 +29,6 @@
       }
     },
     "continue_shopping": "Continuați cumpărăturile",
-    "pagination": {
-      "label": "Paginare",
-      "page": "Pagina {{ number }}",
-      "next": "Pagina următoare",
-      "previous": "Pagina precedentă"
-    },
     "search": {
       "search": "Căutați"
     },

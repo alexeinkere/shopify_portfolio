@@ -29,12 +29,6 @@
       }
     },
     "continue_shopping": "Pokračovať v nákupe",
-    "pagination": {
-      "label": "Stránkovanie",
-      "page": "Stránka {{ number }}",
-      "next": "Nasledujúca stránka",
-      "previous": "Predchádzajúca stránka"
-    },
     "search": {
       "search": "Vyhľadať"
     },

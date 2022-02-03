@@ -29,12 +29,6 @@
       }
     },
     "continue_shopping": "Lanjutkan belanja",
-    "pagination": {
-      "label": "Pembagian Halaman",
-      "page": "Halaman {{ number }}",
-      "next": "Halaman berikutnya",
-      "previous": "Halaman sebelumnya"
-    },
     "search": {
       "search": "Cari"
     },

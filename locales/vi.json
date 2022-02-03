@@ -29,12 +29,6 @@
       }
     },
     "continue_shopping": "Tiếp tục mua sắm",
-    "pagination": {
-      "label": "Phân trang",
-      "page": "Trang {{ number }}",
-      "next": "Trang sau",
-      "previous": "Trang trước"
-    },
     "search": {
       "search": "Tìm kiếm"
     },

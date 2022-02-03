@@ -29,12 +29,6 @@
       }
     },
     "continue_shopping": "Nadaljuj nakup",
-    "pagination": {
-      "label": "Oštevilčevanje strani",
-      "page": "Stran {{ number }}",
-      "next": "Naslednja stran",
-      "previous": "Prejšnja stran"
-    },
     "search": {
       "search": "Iskanje"
     },

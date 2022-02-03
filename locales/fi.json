@@ -29,12 +29,6 @@
       }
     },
     "continue_shopping": "Jatka ostoksia",
-    "pagination": {
-      "label": "Sivunumerointi",
-      "page": "Sivu {{ number }}",
-      "next": "Seuraava sivu",
-      "previous": "Edellinen sivu"
-    },
     "search": {
       "search": "Hae"
     },

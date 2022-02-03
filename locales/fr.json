@@ -29,12 +29,6 @@
       }
     },
     "continue_shopping": "Continuer les achats",
-    "pagination": {
-      "label": "Pagination",
-      "page": "Page {{ number }}",
-      "next": "Page suivante",
-      "previous": "Page précédente"
-    },
     "search": {
       "search": "Recherche"
     },

@@ -29,12 +29,6 @@
       }
     },
     "continue_shopping": "เลือกซื้อต่อ",
-    "pagination": {
-      "label": "การแบ่งหน้า",
-      "page": "หน้า {{ number }}",
-      "next": "หน้าถัดไป",
-      "previous": "หน้าก่อนหน้านี้"
-    },
     "search": {
       "search": "ค้นหา"
     },

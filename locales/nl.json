@@ -29,12 +29,6 @@
       }
     },
     "continue_shopping": "Terugkeren naar winkel",
-    "pagination": {
-      "label": "Paginering",
-      "page": "Pagina {{ number }}",
-      "next": "Volgende pagina",
-      "previous": "Vorige pagina"
-    },
     "search": {
       "search": "Zoeken"
     },

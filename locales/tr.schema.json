@@ -179,25 +179,6 @@
         }
       }
     },
-    "search_input": {
-      "name": "Arama davranışı",
-      "settings": {
-        "header": {
-          "content": "Ürün önerileri"
-        },
-        "predictive_search_enabled": {
-          "label": "Ürün önerilerini etkinleştir"
-        },
-        "predictive_search_show_vendor": {
-          "label": "Satıcıyı göster",
-          "info": "Ürün önerileri etkinleştirildiğinde görünür."
-        },
-        "predictive_search_show_price": {
-          "label": "Fiyatı göster",
-          "info": "Ürün önerileri etkinleştirildiğinde görünür."
-        }
-      }
-    },
     "global": {
       "settings": {
         "header__border": {

@@ -29,12 +29,6 @@
       }
     },
     "continue_shopping": "繼續購物",
-    "pagination": {
-      "label": "分頁",
-      "page": "第 {{ number }} 頁",
-      "next": "下一頁",
-      "previous": "上一頁"
-    },
     "search": {
       "search": "搜尋"
     },

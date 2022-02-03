@@ -29,12 +29,6 @@
       }
     },
     "continue_shopping": "Fortsett å handle",
-    "pagination": {
-      "label": "Sideinndeling",
-      "page": "Side {{ number }}",
-      "next": "Neste side",
-      "previous": "Forrige side"
-    },
     "search": {
       "search": "Søk"
     },

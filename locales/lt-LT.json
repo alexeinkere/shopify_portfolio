@@ -29,12 +29,6 @@
       }
     },
     "continue_shopping": "Tęsti apsipirkimą",
-    "pagination": {
-      "label": "Puslapių numeravimas",
-      "page": "{{ number }} psl.",
-      "next": "Kitas puslapis",
-      "previous": "Ankstesnis puslapis"
-    },
     "search": {
       "search": "Ieškoti"
     },

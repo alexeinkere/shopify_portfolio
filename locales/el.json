@@ -29,12 +29,6 @@
       }
     },
     "continue_shopping": "Συνέχιση αγορών",
-    "pagination": {
-      "label": "Σελιδοποίηση",
-      "page": "Σελίδα {{ number }}",
-      "next": "Επόμενη σελίδα",
-      "previous": "Προηγούμενη σελίδα"
-    },
     "search": {
       "search": "Αναζήτηση"
     },

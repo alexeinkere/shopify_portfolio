@@ -29,12 +29,6 @@
       }
     },
     "continue_shopping": "Alışverişe devam et",
-    "pagination": {
-      "label": "Sayfalara ayırma",
-      "page": "Sayfa {{ number }}",
-      "next": "Sonraki sayfa",
-      "previous": "Önceki sayfa"
-    },
     "search": {
       "search": "Ara"
     },

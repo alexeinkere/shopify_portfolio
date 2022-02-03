@@ -29,12 +29,6 @@
       }
     },
     "continue_shopping": "Vásárlás folytatása",
-    "pagination": {
-      "label": "Tördelés",
-      "page": "{{ number }}. oldal",
-      "next": "Következő oldal",
-      "previous": "Előző oldal"
-    },
     "search": {
       "search": "Keresés"
     },

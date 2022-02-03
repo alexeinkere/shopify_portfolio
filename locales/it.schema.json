@@ -179,25 +179,6 @@
         }
       }
     },
-    "search_input": {
-      "name": "Comportamento di ricerca",
-      "settings": {
-        "header": {
-          "content": "Suggerimenti sui prodotti"
-        },
-        "predictive_search_enabled": {
-          "label": "Abilita suggerimenti sui prodotti"
-        },
-        "predictive_search_show_vendor": {
-          "label": "Mostra fornitore",
-          "info": "Visibile quando i suggerimenti sui prodotti sono abilitati."
-        },
-        "predictive_search_show_price": {
-          "label": "Mostra prezzo",
-          "info": "Visibile quando i suggerimenti sui prodotti sono abilitati."
-        }
-      }
-    },
     "global": {
       "settings": {
         "header__border": {

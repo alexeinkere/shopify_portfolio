@@ -179,25 +179,6 @@
         }
       }
     },
-    "search_input": {
-      "name": "Hành vi tìm kiếm",
-      "settings": {
-        "header": {
-          "content": "Gợi ý sản phẩm"
-        },
-        "predictive_search_enabled": {
-          "label": "Bật gợi ý sản phẩm"
-        },
-        "predictive_search_show_vendor": {
-          "label": "Hiển thị nhà cung cấp",
-          "info": "Hiển thị khi bật gợi ý sản phẩm."
-        },
-        "predictive_search_show_price": {
-          "label": "Hiển thị giá",
-          "info": "Hiển thị khi bật gợi ý sản phẩm."
-        }
-      }
-    },
     "global": {
       "settings": {
         "header__border": {

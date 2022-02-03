@@ -29,12 +29,6 @@
       }
     },
     "continue_shopping": "Fortsätt shoppa",
-    "pagination": {
-      "label": "Paginering",
-      "page": "Sida {{ number }}",
-      "next": "Nästa sida",
-      "previous": "Föregående sida"
-    },
     "search": {
       "search": "Sök"
     },

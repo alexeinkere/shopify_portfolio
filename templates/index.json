@@ -4,17 +4,9 @@
       "type": "multicolumn",
       "settings": {
       }
-    },
-    "1643861526e5d9414a": {
-      "type": "hero",
-      "settings": {
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
     }
   },
   "order": [
-    "multicolumn",
-    "1643861526e5d9414a"
+    "multicolumn"
   ]
 }

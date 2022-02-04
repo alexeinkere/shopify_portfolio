@@ -1,6 +1,48 @@
-<section {{ section.id }} class="h-screen w-screen bg-forest">
-  {{ section.settings.title }}
+<section class="h-screen w-screen bg-forest py-16 relative">
+  <h1 class="uppercase w-full text-center text-yellow text-title leading-small font-thunder relative top-16 m-0">{{ section.settings.title_text }}</h1>
+  <div class="flex justify-center">
+    <a href="#" class="m-auto uppercase text-yellow text-5xl font-balgin border border-yellow rounded-md px-8 relative z-1 inline-flex items-center" style="height: 60px;">
+      {{ section.settings.button_text }}
+    </a>
+  </div>
+  <div class="slide bg-yellow absolute bottom-0 w-screen max-w-full overflow-x-hidden" style="height: 45px;">
+    <div class="flex items-center font-bold relative whitespace-nowrap h-full">
+      {%- for i in (1..5) -%}
+        {%- for block in section.blocks -%}
+          <span class="mx-2">{{ block.settings.text }}</span>
+          <span class="mx-2">
+            <img class="" src="//cdn.shopify.com/s/files/1/0529/2461/2804/t/10/assets/green-star.svg?v=12146141700327097387">
+          </span>
+        {%- endfor -%}
+      {% endfor %}
+    </div>
+  </div>
+  <div class="absolute top-4 right-4 close duration-500">
+    <i class="fas fa-times text-4xl text-yellow"></i>
+  </div>
 </section>
+
+<style>
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  .slide > div {
+    -webkit-animation: marquee 45s linear infinite;
+  }
+  .slide img {
+    display: block;
+    height: 20px;
+    min-width: 20px;
+  }
+  .close:hover {
+    transform: rotate(180deg);
+  }
+</style>
 
 {% schema %}
 {
@@ -14,9 +56,29 @@
     },
     {
       "type": "text",
-      "id": "title",
+      "id": "title_text",
       "label": "Title",
       "default": "Title"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button text",
+      "default": "Shop now"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "name": "Compétences",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "default": "Front End Developer",
+          "label": "Titre"
+        }
+      ]
     }
   ],
   "presets": [

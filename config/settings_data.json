@@ -5,7 +5,7 @@
     "colors_accent_2": "rgba(0,0,0,0)",
     "colors_text": "rgba(0,0,0,0)",
     "colors_outline_button_labels": "rgba(0,0,0,0)",
-    "colors_background_1": "rgba(0,0,0,0)",
+    "colors_background_1": "#006450",
     "colors_background_2": "rgba(0,0,0,0)",
     "sections": {
       "footer": {

@@ -4,9 +4,16 @@
       "type": "multicolumn",
       "settings": {
       }
+    },
+    "1643862506b645b92c": {
+      "type": "hero",
+      "settings": {
+        "title": "Title"
+      }
     }
   },
   "order": [
-    "multicolumn"
+    "multicolumn",
+    "1643862506b645b92c"
   ]
 }

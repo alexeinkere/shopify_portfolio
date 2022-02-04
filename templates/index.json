@@ -50,10 +50,17 @@
         "title_text": "NOOCH",
         "button_text": "Shop now"
       }
+    },
+    "1643947296ed80d8b4": {
+      "type": "horizontal_section",
+      "settings": {
+        "title": "Title"
+      }
     }
   },
   "order": [
     "multicolumn",
-    "1643862506b645b92c"
+    "1643862506b645b92c",
+    "1643947296ed80d8b4"
   ]
 }

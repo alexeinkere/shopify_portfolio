@@ -1,17 +1,34 @@
-<div id="menu" class="h-screen w-screen bg-forest p-16">
+<div class="menu z-1 h-screen w-full fixed top-0 left-0 bg-forest p-16 z-10">
   {% for link in linklists[section.settings.menu].links %}
     <span class="relative">
-      <a class="text-yellow text-7xl font-thunder mr-20 uppercase" href="{{ link.url }}">{{ link.title }}</a>
-      <img class="absolute -top-4 right-8 w-6 h-6 menu-star" src="//cdn.shopify.com/s/files/1/0529/2461/2804/t/10/assets/menu-star-yellow.png?v=4045738522266210733">
+      <a class="text-yellow text-9xl font-thunder mr-20 uppercase" href="{{ link.url }}">{{ link.title }}</a>
+      <img class="absolute -top-10 right-6 w-8 h-8 menu-star" src="//cdn.shopify.com/s/files/1/0529/2461/2804/t/10/assets/menu-star-yellow.png?v=4045738522266210733">
     </span>
   {% endfor %}
 </div>
 
-<div id="burger-menu" class="absolute top-8 right-16 close duration-500 z-50">
-  <i class="fas fa-times text-4xl text-yellow"></i>
+<div class="burger-menu absolute top-8 right-16 z-50">
+  <i class="fas fa-bars text-4xl text-yellow bars"></i>
+  <i class="fas fa-times text-4xl text-yellow times duration-500"></i>
 </div>
 
 <style>
+  .menu {
+    transition: all 0.3s ease-in-out;
+    transform: translateY(-100%);
+  }
+
+  .menu.overlay {
+    transform: translateY(0);
+  }
+
+  .burger-menu:not(.close) .times {display: none;}
+  .burger-menu.close .bars {display: none;}
+
+  .times:hover {
+    transform: rotate(180deg);
+  }
+
   .menu-star {
     transition-property: transform;
     transition-duration: 1s;
@@ -27,27 +44,11 @@
     from {transform: rotate(0deg);}
     to {transform: rotate(360deg);}
   }
-
-  #menu {
-    z-index:1;
-    width:100%;
-    height:100%;
-    position: fixed;
-    top:0;
-    left:0;
-    padding-top:20px;
-    transition: all 0.3s ease-in-out;
-    transform: translateY(-100%);
-  }
-
-  #menu.overlay{
-    transform: translateY(0);
-  }
 </style>
 
 <script>
-  var burgerMenu = document.getElementById('burger-menu');
-  var overlay = document.getElementById('menu');
+  var burgerMenu = document.querySelector('.burger-menu');
+  var overlay = document.querySelector('.menu');
   burgerMenu.addEventListener('click',function(){
     this.classList.toggle("close");
     overlay.classList.toggle("overlay");

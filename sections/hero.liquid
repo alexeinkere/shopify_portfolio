@@ -9,7 +9,7 @@
       {{ section.settings.button_text }}
     </a>
   </div>
-  <div class="slide bg-yellow absolute bottom-0 w-screen max-w-full overflow-x-hidden" style="height: 45px;">
+  <div class="slide bg-yellow absolute bottom-0 w-screen max-w-full overflow-x-hidden z-50" style="height: 45px;">
     <div class="flex items-center font-bold relative whitespace-nowrap h-full">
       {%- for i in (1..5) -%}
         {%- for block in section.blocks -%}
@@ -39,9 +39,6 @@
     display: block;
     height: 20px;
     min-width: 20px;
-  }
-  .close:hover {
-    transform: rotate(180deg);
   }
 </style>
 

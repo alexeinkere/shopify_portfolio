@@ -7,8 +7,48 @@
     },
     "1643862506b645b92c": {
       "type": "hero",
+      "blocks": {
+        "42511969-1901-42ea-81e6-b685aaf068c8": {
+          "type": "text",
+          "settings": {
+            "text": "Front End Developer"
+          }
+        },
+        "f7616544-126e-43f8-9692-0caa86222451": {
+          "type": "text",
+          "settings": {
+            "text": "Shopify"
+          }
+        },
+        "e147cce4-49c7-404c-a700-5404c686df9d": {
+          "type": "text",
+          "settings": {
+            "text": "Javascript"
+          }
+        },
+        "c4fcd45d-7d6e-49f4-8e5f-2d4b7d0e7093": {
+          "type": "text",
+          "settings": {
+            "text": "GSAP"
+          }
+        },
+        "a2ad7985-47a2-4424-b23d-1287c92cd6ee": {
+          "type": "text",
+          "settings": {
+            "text": "TailwindCSS"
+          }
+        }
+      },
+      "block_order": [
+        "42511969-1901-42ea-81e6-b685aaf068c8",
+        "f7616544-126e-43f8-9692-0caa86222451",
+        "e147cce4-49c7-404c-a700-5404c686df9d",
+        "c4fcd45d-7d6e-49f4-8e5f-2d4b7d0e7093",
+        "a2ad7985-47a2-4424-b23d-1287c92cd6ee"
+      ],
       "settings": {
-        "title": "Title"
+        "title_text": "NOOCH",
+        "button_text": "Shop now"
       }
     }
   },
